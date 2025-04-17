@@ -1,0 +1,37 @@
+{
+
+    "kind": "LanguageDetection",
+
+    "parameters": {
+
+        "modelVersion": "latest"
+
+    },
+
+    "analysisInput":{
+
+        "documents":[
+
+              {
+
+                "id": "1",
+
+                "text": "Hello world",
+
+                "countryHint": "US"
+
+              },
+
+              {
+
+                "id": "2",
+
+                "text": "Bonjour tout le monde"
+
+              }
+
+        ]
+
+    }
+
+}
