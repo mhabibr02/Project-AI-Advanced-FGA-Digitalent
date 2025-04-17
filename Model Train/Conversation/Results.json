@@ -1,0 +1,57 @@
+{
+
+  "kind": "ConversationResult",
+
+  "result": {
+
+    "query": "String",
+
+    "prediction": {
+
+      "topIntent": "intent1",
+
+      "projectKind": "Conversation",
+
+      "intents": [
+
+        {
+
+          "category": "intent1",
+
+          "confidenceScore": 1
+
+        },
+
+        {
+
+          "category": "intent2",
+
+          "confidenceScore": 0
+
+        }
+
+      ],
+
+      "entities": [
+
+        {
+
+          "category": "entity1",
+
+          "text": "text",
+
+          "offset": 7,
+
+          "length": 4,
+
+          "confidenceScore": 1
+
+        }
+
+      ]
+
+    }
+
+  }
+
+}
