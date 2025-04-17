@@ -1,0 +1,39 @@
+<...>
+
+"entities":[
+
+    {
+
+        "text":"Seattle",
+
+        "category":"Location",
+
+        "subcategory":"GPE",
+
+        "offset":45,
+
+        "length":7,
+
+        "confidenceScore":0.99
+
+    },
+
+    {
+
+        "text":"next week",
+
+        "category":"DateTime",
+
+        "subcategory":"DateRange",
+
+        "offset":104,
+
+        "length":9,
+
+        "confidenceScore":0.8
+
+    }
+
+]
+
+<...>
