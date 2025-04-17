@@ -1,0 +1,30 @@
+{ 
+  "modelVersion": "2023-10-01",
+  "metadata": {
+    "width": 400,
+    "height": 600
+  },
+  "peopleResult": {
+    "values": [
+      {
+        "boundingBox": {
+          "x": 0,
+          "y": 56,
+          "w": 101,
+          "h": 189
+        },
+        "confidence": 0.9474349617958069
+      },
+      {
+        "boundingBox": {
+          "x": 402,
+          "y": 96,
+          "w": 124,
+          "h": 156
+        },
+        "confidence": 0.9310565276194865
+      },
+    ...
+    ]
+  }
+}
