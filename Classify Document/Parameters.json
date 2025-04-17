@@ -1,0 +1,53 @@
+{
+
+  "displayName": "Classifying documents",
+
+  "analysisInput": {
+
+    "documents": [
+
+      {
+
+        "id": "1",
+
+        "language": "<LANGUAGE-CODE>",
+
+        "text": "Text1"
+
+      },
+
+      {
+
+        "id": "2",
+
+        "language": "<LANGUAGE-CODE>",
+
+        "text": "Text2"
+
+      }
+
+    ]
+
+  },
+
+  "tasks": [
+
+     {
+
+      "kind": "<TASK-REQUIRED>",
+
+      "taskName": "<TASK-NAME>",
+
+      "parameters": {
+
+        "projectName": "<PROJECT-NAME>",
+
+        "deploymentName": "<DEPLOYMENT-NAME>"
+
+      }
+
+    }
+
+  ]
+
+}
