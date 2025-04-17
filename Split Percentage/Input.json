@@ -1,0 +1,17 @@
+{
+
+        "modelLabel": "<MODEL-NAME>",
+
+        "trainingConfigVersion": "<CONFIG-VERSION>",
+
+        "evaluationOptions": {
+
+            "kind": "percentage",
+
+            "trainingSplitPercentage": 80,
+
+            "testingSplitPercentage": 20
+
+        }
+
+    }
