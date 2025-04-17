@@ -1,0 +1,76 @@
+{
+
+  "createdDateTime": "2023-05-19T14:32:25.578Z",
+
+  "displayName": "MyJobName",
+
+  "expirationDateTime": "2023-05-19T14:32:25.578Z",
+
+  "jobId": "xxxx-xxxxxx-xxxxx-xxxx",
+
+  "lastUpdateDateTime": "2023-05-19T14:32:25.578Z",
+
+  "status": "succeeded",
+
+  "tasks": {
+
+    "completed": 1,
+
+    "failed": 0,
+
+    "inProgress": 0,
+
+    "total": 1,
+
+    "items": [
+
+      {
+
+        "kind": "customSingleClassificationTasks",
+
+        "taskName": "Classify documents",
+
+        "lastUpdateDateTime": "2022-10-01T15:01:03Z",
+
+        "status": "succeeded",
+
+        "results": {
+
+          "documents": [
+
+            {
+
+              "id": "<DOC-ID>",
+
+              "class": [
+
+                  {
+
+                      "category": "Class_1",
+
+                      "confidenceScore": 0.0551877357
+
+                  }
+
+              ],
+
+              "warnings": []
+
+            }
+
+          ],
+
+          "errors": [],
+
+          "modelVersion": "2022-04-01"
+
+        }
+
+      }
+
+    ]
+
+  }
+
+}
+
