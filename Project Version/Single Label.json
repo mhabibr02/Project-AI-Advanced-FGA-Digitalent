@@ -1,0 +1,83 @@
+{
+
+  "projectFileVersion": "<API-VERSION>",
+
+  "stringIndexType": "Utf16CodeUnit",
+
+  "metadata": {
+
+    "projectName": "<PROJECT-NAME>",
+
+    "storageInputContainerName": "<CONTAINER-NAME>",
+
+    "projectKind": "customSingleLabelClassification",
+
+    "description": "Trying out custom multi label text classification",
+
+    "language": "<LANGUAGE-CODE>",
+
+    "multilingual": true,
+
+    "settings": {}
+
+  },
+
+  "assets": {
+
+    "projectKind": "customSingleLabelClassification",
+
+        "classes": [
+
+            {
+
+                "category": "Class1"
+
+            },
+
+            {
+
+                "category": "Class2"
+
+            }
+
+        ],
+
+        "documents": [
+
+            {
+
+                "location": "<DOCUMENT-NAME>",
+
+                "language": "<LANGUAGE-CODE>",
+
+                "dataset": "<DATASET>",
+
+                "class": {
+
+                    "category": "Class2"
+
+                }
+
+            },
+
+            {
+
+                "location": "<DOCUMENT-NAME>",
+
+                "language": "<LANGUAGE-CODE>",
+
+                "dataset": "<DATASET>",
+
+                "class": {
+
+                    "category": "Class1"
+
+                }
+
+            }
+
+        ]
+
+    }
+
+}
