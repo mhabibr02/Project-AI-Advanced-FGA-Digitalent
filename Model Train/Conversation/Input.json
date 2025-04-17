@@ -1,0 +1,29 @@
+{
+
+  "kind": "Conversation",
+
+  "analysisInput": {
+
+    "conversationItem": {
+
+      "id": "1",
+
+      "participantId": "1",
+
+      "text": "Sample text"
+
+    }
+
+  },
+
+  "parameters": {
+
+    "projectName": "{PROJECT-NAME}",
+
+    "deploymentName": "{DEPLOYMENT-NAME}",
+
+    "stringIndexType": "TextElement_V8"
+
+  }
+
+}
