@@ -1,0 +1,23 @@
+{
+
+    "kind": "KeyPhraseExtractionResults",
+
+    "results": {
+
+        "documents": [{
+
+            "id": "1",
+
+            "keyPhrases": ["modern medical office", "Dr. Smith", "great staff"],
+
+            "warnings": []
+
+        }],
+
+        "errors": [],
+
+        "modelVersion": "{VERSION}"
+
+    }
+
+}
