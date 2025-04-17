@@ -1,0 +1,27 @@
+{
+
+    "kind": "LanguageDetection",
+
+    "parameters": {
+
+        "modelVersion": "latest"
+
+    },
+
+    "analysisInput":{
+
+        "documents":[
+
+            {
+
+                "id":"1",
+
+                "text": "This is a document written in English."
+
+            }
+
+        ]
+
+    }
+
+}
