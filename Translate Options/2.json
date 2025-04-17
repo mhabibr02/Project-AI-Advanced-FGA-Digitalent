@@ -1,0 +1,21 @@
+[
+
+   {
+
+      "translations":[
+
+         {
+
+            "text":"Salut tout le monde",
+
+            "to":"fr",
+
+            "sentLen":{"srcSentLen":[12],"transSentLen":[20]}
+
+         }
+
+      ]
+
+   }
+
+]
