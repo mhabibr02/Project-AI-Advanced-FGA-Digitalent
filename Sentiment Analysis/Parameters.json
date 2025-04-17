@@ -1,0 +1,29 @@
+{
+
+  "kind": "SentimentAnalysis",
+
+  "parameters": {
+
+    "modelVersion": "latest"
+
+  },
+
+  "analysisInput": {
+
+    "documents": [
+
+      {
+
+        "id": "1",
+
+        "language": "en",
+
+        "text": "Good morning!"
+
+      }
+
+    ]
+
+  }
+
+}
