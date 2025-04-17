@@ -1,0 +1,49 @@
+{
+
+    "displayName": "string",
+
+    "analysisInput": {
+
+        "documents": [
+
+            {
+
+                "id": "doc1",
+
+                "text": "string"
+
+            },
+
+            {
+
+                "id": "doc2",
+
+                "text": "string"
+
+            }
+
+        ]
+
+    },
+
+    "tasks": [
+
+        {
+
+            "kind": "CustomEntityRecognition",
+
+            "taskName": "MyRecognitionTaskName",
+
+            "parameters": {
+
+            "projectName": "MyProject",
+
+            "deploymentName": "MyDeployment"
+
+            }
+
+        }
+
+    ]
+
+}
