@@ -1,0 +1,133 @@
+{
+
+  "projectFileVersion": "{DATE}",
+
+  "stringIndexType": "Utf16CodeUnit",
+
+  "metadata": {
+
+    "projectKind": "CustomEntityRecognition",
+
+    "storageInputContainerName": "{CONTAINER-NAME}",
+
+    "projectName": "{PROJECT-NAME}",
+
+    "multilingual": false,
+
+    "description": "Project-description",
+
+    "language": "en-us",
+
+    "settings": {}
+
+  },
+
+  "assets": {
+
+    "projectKind": "CustomEntityRecognition",
+
+    "entities": [
+
+      {
+
+        "category": "Entity1"
+
+      },
+
+      {
+
+        "category": "Entity2"
+
+      }
+
+    ],
+
+    "documents": [
+
+      {
+
+        "location": "{DOCUMENT-NAME}",
+
+        "language": "{LANGUAGE-CODE}",
+
+        "dataset": "{DATASET}",
+
+        "entities": [
+
+          {
+
+            "regionOffset": 0,
+
+            "regionLength": 500,
+
+            "labels": [
+
+              {
+
+                "category": "Entity1",
+
+                "offset": 25,
+
+                "length": 10
+
+              },
+
+              {
+
+                "category": "Entity2",
+
+                "offset": 120,
+
+                "length": 8
+
+              }
+
+            ]
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "location": "{DOCUMENT-NAME}",
+
+        "language": "{LANGUAGE-CODE}",
+
+        "dataset": "{DATASET}",
+
+        "entities": [
+
+          {
+
+            "regionOffset": 0,
+
+            "regionLength": 100,
+
+            "labels": [
+
+              {
+
+                "category": "Entity2",
+
+                "offset": 20,
+
+                "length": 5
+
+              }
+
+            ]
+
+          }
+
+        ]
+
+      }
+
+    ]
+
+  }
+
+}
