@@ -1,0 +1,41 @@
+{
+
+  "result": {
+
+    "modelLabel": "<MODEL-NAME>",
+
+    "trainingConfigVersion": "<CONFIG-VERSION>",
+
+    "estimatedEndDateTime": "2023-05-18T15:47:58.8190649Z",
+
+    "trainingStatus": {
+
+      "percentComplete": 3,
+
+      "startDateTime": "2023-05-18T15:45:06.8190649Z",
+
+      "status": "running"
+
+    },
+
+    "evaluationStatus": {
+
+      "percentComplete": 0,
+
+      "status": "notStarted"
+
+    }
+
+  },
+
+  "jobId": "<JOB-ID>",
+
+  "createdDateTime": "2023-05-18T15:44:44Z",
+
+  "lastUpdatedDateTime": "2023-05-18T15:45:48Z",
+
+  "expirationDateTime": "2023-05-25T15:44:44Z",
+
+  "status": "running"
+
+}
