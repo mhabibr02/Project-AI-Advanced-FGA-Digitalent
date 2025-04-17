@@ -1,0 +1,21 @@
+{
+
+  "question": "What do I need to do to cancel a reservation?",
+
+  "top": 2,
+
+  "scoreThreshold": 20,
+
+  "strictFilters": [
+
+    {
+
+      "name": "category",
+
+      "value": "api"
+
+    }
+
+  ]
+
+}
