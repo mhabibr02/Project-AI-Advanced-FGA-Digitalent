@@ -1,0 +1,60 @@
+
+{
+
+  "name": "description_jp",
+
+  "type": "Edm.String",
+
+  "facetable": false,
+
+  "filterable": false,
+
+  "key": false,
+
+  "retrievable": true,
+
+  "searchable": true,
+
+  "sortable": false,
+
+  "analyzer": "ja.microsoft",
+
+  "indexAnalyzer": null,
+
+  "searchAnalyzer": null,
+
+  "synonymMaps": [],
+
+  "fields": []
+
+},
+
+{
+
+  "name": "description_uk",
+
+  "type": "Edm.String",
+
+  "facetable": false,
+
+  "filterable": false,
+
+  "key": false,
+
+  "retrievable": true,
+
+  "searchable": true,
+
+  "sortable": false,
+
+  "analyzer": "uk.microsoft",
+
+  "indexAnalyzer": null,
+
+  "searchAnalyzer": null,
+
+  "synonymMaps": [],
+
+  "fields": []
+
+}
