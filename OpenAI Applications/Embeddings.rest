@@ -1,0 +1,7 @@
+curl https://YOUR_ENDPOINT_NAME.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT_NAME/embeddings?api-version=2022-12-01 \
+
+  -H "Content-Type: application/json" \
+
+  -H "api-key: YOUR_API_KEY" \
+
+  -d "{\"input\": \"The food was delicious and the waiter...\"}"
