@@ -1,0 +1,20 @@
+"outputFieldMappings": [
+
+  {
+
+    "sourceFieldName": "/document/description/description_jp",
+
+    "targetFieldName": "description_jp"
+
+  },
+
+  {
+
+    "sourceFieldName": "/document/description/description_uk",
+
+    "targetFieldName": "description_uk"
+
+  }
+
+]
+
