@@ -1,0 +1,87 @@
+{
+
+  "jobId": "be1419f3-61f8-481d-8235-36b7a9335bb7",
+
+  "lastUpdatedDateTime": "2022-06-13T16:24:27Z",
+
+  "createdDateTime": "2022-06-13T16:24:26Z",
+
+  "expirationDateTime": "2022-06-14T16:24:26Z",
+
+  "status": "succeeded",
+
+  "errors": [],
+
+  "displayName": "Extracting custom text classification",
+
+  "tasks": {
+
+    "completed": 1,
+
+    "failed": 0,
+
+    "inProgress": 0,
+
+    "total": 1,
+
+    "items": [
+
+      {
+
+        "kind": "CustomMultiLabelClassificationLROResults",
+
+        "taskName": "Multi Label Classification",
+
+        "lastUpdateDateTime": "2022-06-13T16:24:27.7912131Z",
+
+        "status": "succeeded",
+
+        "results": {
+
+          "documents": [
+
+            {
+
+              "id": "1",
+
+              "class": [
+
+                {
+
+                  "category": "Action",
+
+                  "confidenceScore": 0.99
+
+                },
+
+                {
+
+                  "category": "Comedy",
+
+                  "confidenceScore": 0.96
+
+                }
+
+              ],
+
+              "warnings": []
+
+            }
+
+          ],
+
+          "errors": [],
+
+          "projectName": "movie-classifier",
+
+          "deploymentName": "test-release"
+
+        }
+
+      }
+
+    ]
+
+  }
+
+}
