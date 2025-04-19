@@ -1,0 +1,49 @@
+{
+
+    "values": [
+
+      {
+
+        "recordId": "<unique_identifier_from_input>",
+
+        "data":
+
+           {
+
+             "<output1_name>":  "<output1_value>",
+
+              ...
+
+           },
+
+         "errors": [...],
+
+         "warnings": [...]
+
+      },
+
+      {
+
+        "recordId": "< unique_identifier_from_input>",
+
+        "data":
+
+           {
+
+             "<output1_name>":  "<output1_value>",
+
+              ...
+
+           },
+
+         "errors": [...],
+
+         "warnings": [...]
+
+      },
+
+      ...
+
+    ]
+
+}
