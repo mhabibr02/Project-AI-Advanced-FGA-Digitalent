@@ -1,0 +1,86 @@
+
+{
+
+  "@odata.context": "https://advanced-cognitive-search.search.windows.net/indexes('hotels-sample-index')/$metadata#docs(*)",
+
+  "@odata.count": 14,
+
+  "value": [
+
+    {
+
+      "@search.score": 2.633778,
+
+      "HotelId": "13",
+
+      "HotelName": "Historic Lion Resort",
+
+      "Description": "Unmatched Luxury.  Visit our downtown hotel to indulge in luxury accommodations. Moments from the stadium, we feature the best in comfort",
+
+      "Category": "Budget",
+
+      "Tags": [
+
+        "view",
+
+        "free wifi",
+
+        "free wifi"
+
+      ]
+
+    },
+
+    {
+
+      "@search.score": 2.1104424,
+
+      "HotelId": "18",
+
+      "HotelName": "Oceanside Resort",
+
+      "Description": "New Luxury Hotel.  Be the first to stay. Bay views from every room, location near the piper, rooftop pool, waterfront dining & more.",
+
+      "Category": "Budget",
+
+      "Tags": [
+
+        "view",
+
+        "laundry service",
+
+        "air conditioning"
+
+      ]
+
+    },
+
+    {
+
+      "@search.score": 1.966516,
+
+      "HotelId": "40",
+
+      "HotelName": "Trails End Motel",
+
+      "Description": "Only 8 miles from Downtown.  On-site bar/restaurant, Free hot breakfast buffet, Free wireless internet, All non-smoking hotel. Only 15 miles from airport.",
+
+      "Category": "Luxury",
+
+      "Tags": [
+
+        "continental breakfast",
+
+        "view",
+
+        "view"
+
+      ]
+
+    },
+
+    ...
+
+  ]
+
+}
