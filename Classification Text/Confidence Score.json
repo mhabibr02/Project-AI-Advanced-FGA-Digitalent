@@ -1,0 +1,55 @@
+{
+
+  "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+
+  "name": "Genre Classification",
+
+  "description": "Identify the genre of your movie from its summary",
+
+  "context": "/document",
+
+  "uri": "https://learn-acs-lang-serives.cognitiveservices.azure.com/language/analyze-text/jobs?api-version=2022-05-01",
+
+  "httpMethod": "POST",
+
+  "timeout": "PT30S",
+
+  "batchSize": 1,
+
+  "degreeOfParallelism": 1,
+
+  "inputs": [
+
+    {
+
+      "name": "lang",
+
+      "source": "/document/language"
+
+    },
+
+    {
+
+      "name": "text",
+
+      "source": "/document/content"
+
+    }
+
+  ],
+
+  "outputs": [
+
+    {
+
+      "name": "text",
+
+      "targetName": "class"
+
+    }
+
+  ],
+
+  "httpHeaders": {}
+
+}
