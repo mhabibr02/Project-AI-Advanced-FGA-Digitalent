@@ -1,0 +1,73 @@
+{
+
+  "@odata.type": "#Microsoft.Skills.Util.ShaperSkill",
+
+  "name": "define-projection",
+
+  "description": "Prepare projection fields",
+
+  "context": "/document",
+
+  "inputs": [
+
+    {
+
+      "name": "file_name",
+
+      "source": "/document/metadata_content_name"
+
+    },
+
+    {
+
+      "name": "url",
+
+      "source": "/document/url"
+
+    },
+
+    {
+
+      "name": "sentiment",
+
+      "source": "/document/sentimentScore"
+
+    },
+
+    {
+
+      "name": "key_phrases",
+
+      "source": null,
+
+      "sourceContext": "/document/merged_content/keyphrases/*",
+
+      "inputs": [
+
+        {
+
+          "name": "phrase",
+
+          "source": "/document/merged_content/keyphrases/*"
+
+        }
+
+      ]
+
+    }
+
+  ],
+
+  "outputs": [
+
+    {
+
+      "name": "output",
+
+      "targetName": "projection"
+
+    }
+
+  ]
+
+}
