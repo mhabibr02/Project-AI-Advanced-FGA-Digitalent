@@ -1,0 +1,120 @@
+{
+
+      "name": "description",
+
+      "type": "Edm.String",
+
+      "facetable": false,
+
+      "filterable": false,
+
+      "key": false,
+
+      "retrievable": true,
+
+      "searchable": true,
+
+      "sortable": false,
+
+      "analyzer": "en.microsoft",
+
+      "indexAnalyzer": null,
+
+      "searchAnalyzer": null,
+
+      "synonymMaps": [],
+
+      "fields": []
+
+    },
+
+    {
+
+      "name": "description_de",
+
+      "type": "Edm.String",
+
+      "facetable": false,
+
+      "filterable": false,
+
+      "key": false,
+
+      "retrievable": true,
+
+      "searchable": true,
+
+      "sortable": false,
+
+      "analyzer": "de.microsoft",
+
+      "indexAnalyzer": null,
+
+      "searchAnalyzer": null,
+
+      "synonymMaps": [],
+
+      "fields": []
+
+    },
+
+    {
+
+      "name": "description_fr",
+
+      "type": "Edm.String",
+
+      "facetable": false,
+
+      "filterable": false,
+
+      "key": false,
+
+      "retrievable": true,
+
+      "searchable": true,
+
+      "sortable": false,
+
+      "analyzer": "fr.microsoft",
+
+      "indexAnalyzer": null,
+
+      "searchAnalyzer": null,
+
+      "synonymMaps": [],
+
+      "fields": []
+
+    },
+
+    {
+
+      "name": "description_it",
+
+      "type": "Edm.String",
+
+      "facetable": false,
+
+      "filterable": false,
+
+      "key": false,
+
+      "retrievable": true,
+
+      "searchable": true,
+
+      "sortable": false,
+
+      "analyzer": "it.microsoft",
+
+      "indexAnalyzer": null,
+
+      "searchAnalyzer": null,
+
+      "synonymMaps": [],
+
+      "fields": []
+
+    }
+
