@@ -1,0 +1,108 @@
+
+{
+
+     "status": "succeeded",
+
+     "createdDateTime": "2023-10-18T23:39:50Z",
+
+     "lastUpdatedDateTime": "2023-10-18T23:39:54Z",
+
+     "analyzeResult": {
+
+           "apiVersion": "2022-08-31",
+
+           "modelId": "DocIntelModel",
+
+           "stringIndexType": "utf16CodeUnit",
+
+           "content": "Purchase Order\nHero Limited\nCompany Phone: 555-348-6512 Website: www.herolimited.com Email: accounts@herolimited.com\nPurchase Order\nDated As: 12/20/2020 Purchase Order #: 948284\nShipped To Vendor Name: Balozi Khamisi Company Name: Higgly Wiggly Books Address: 938 NE Burner Road Boulder City, CO 92848 Phone: 938-294-2949\nShipped From Name: Kidane Tsehaye Company Name: Jupiter Book Supply Address: 383 N Kinnick Road Seattle, WA 38383\nPhone: 932-299-0292\nDetails\nQuantity\nUnit Price\nTotal\nBindings\n20\n1.00\n20.00\nCovers Small\n20\n1.00\n20.00\nFeather Bookmark\n20\n5.00\n100.00\nCopper Swirl Marker\n20\n5.00\n100.00\nSUBTOTAL\n$140.00\nTAX\n$4.00\nTOTAL\n$144.00\nKidane Tsehaye\nManager\nKidane Tsehaye\nAdditional Notes: Do not Jostle Box. Unpack carefully. Enjoy. Jupiter Book Supply will refund you 50% per book if returned within 60 days of reading and offer you 25% off you next total purchase.",
+
+           "pages": [
+
+                {
+
+                     "pageNumber": 1,
+
+                     "angle": 0,
+
+                     "width": 1159,
+
+                     "height": 1486,
+
+                     "unit": "pixel",
+
+                     "words": [
+
+                           {
+
+                                "content": "Purchase",
+
+                                "polygon": [
+
+                                     89,
+
+                                     90,
+
+                                     174,
+
+                                     91,
+
+                                     174,
+
+                                     112,
+
+                                     88,
+
+                                     112
+
+                                ],
+
+                                "confidence": 0.996,
+
+                                "span": {
+
+                                     "offset": 0,
+
+                                     "length": 8
+
+                                }
+
+                           },
+
+                           {
+
+                                "content": "Order",
+
+                                "polygon": [
+
+                                     178,
+
+                                     91,
+
+                                     237,
+
+                                     91,
+
+                                     236,
+
+                                     113,
+
+                                     178,
+
+                                     112
+
+                                ],
+
+                                "confidence": 0.997,
+
+                                "span": {
+
+                                     "offset": 9,
+
+                                     "length": 5
+
+                                }
+
+                           },
+
+                    ...
