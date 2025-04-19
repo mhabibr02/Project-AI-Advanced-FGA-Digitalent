@@ -1,0 +1,65 @@
+"analyzers"sadoptional)[
+
+   {
+
+      "name":"ContosoAnalyzer",
+
+      "@odata.type":"#Microsoft.Azure.Search.CustomAnalyzer",
+
+      "charFilters":[
+
+         "WebContentRemover"
+
+      ],
+
+      "tokenizer":"IcelandicTokenizer",
+
+      "tokenFilters":[
+
+         "ApostropheFilter"
+
+      ]
+
+   }
+
+],
+
+"charFilters"sadoptional)[
+
+   {
+
+      "name":"WebContentRemover",
+
+      "@odata.type":"#html_strip"
+
+   }
+
+],
+
+"tokenizers"sadoptional)[
+
+   {
+
+      "name":"IcelandicTokenizer",
+
+      "@odata.type":"#microsoft_language_tokenizer",
+
+      "language":"icelandic",
+
+      "isSearchTokenizer":false,
+
+   }
+
+],
+
+"tokenFilters"sadoptional)[
+
+   {
+
+      "name":"ApostropheFilter",
+
+      "@odata.type":"#apostrophe"
+
+   }
+
+]
