@@ -1,0 +1,45 @@
+{
+
+    "values": [
+
+      {
+
+        "recordId": "<unique_identifier>",
+
+        "data":
+
+           {
+
+             "<input1_name>":  "<input1_value>",
+
+             "<input2_name>": "<input2_value>",
+
+             ...
+
+           }
+
+      },
+
+      {
+
+        "recordId": "<unique_identifier>",
+
+        "data":
+
+           {
+
+             "<input1_name>":  "<input1_value>",
+
+             "<input2_name>": "<input2_value>",
+
+             ...
+
+           }
+
+      },
+
+      ...
+
+    ]
+
+}
