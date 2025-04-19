@@ -1,0 +1,88 @@
+
+"skills": [
+
+  {
+
+    "@odata.type": "#Microsoft.Skills.Text.TranslationSkill",
+
+    "name": "#1",
+
+    "description": null,
+
+    "context": "/document/description",
+
+    "defaultFromLanguageCode": "en",
+
+    "defaultToLanguageCode": "ja",
+
+    "suggestedFrom": "en",
+
+    "inputs": [
+
+      {
+
+        "name": "text",
+
+        "source": "/document/description"
+
+      }
+
+    ],
+
+    "outputs": [
+
+      {
+
+        "name": "translatedText",
+
+        "targetName": "description_jp"
+
+      }
+
+    ]
+
+  },
+
+  {
+
+    "@odata.type": "#Microsoft.Skills.Text.TranslationSkill",
+
+    "name": "#2",
+
+    "description": null,
+
+    "context": "/document/description",
+
+    "defaultFromLanguageCode": "en",
+
+    "defaultToLanguageCode": "uk",
+
+    "suggestedFrom": "en",
+
+    "inputs": [
+
+      {
+
+        "name": "text",
+
+        "source": "/document/description"
+
+      }
+
+    ],
+
+    "outputs": [
+
+      {
+
+        "name": "translatedText",
+
+        "targetName": "description_uk"
+
+      }
+
+    ]
+
+  }
+
+]
