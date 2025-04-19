@@ -1,0 +1,33 @@
+{
+
+    "file_name": "file_name.pdf",
+
+    "url": "https://<storage_path>/file_name.pdf",
+
+    "sentiment": 1.0,
+
+    "key_phrases": [
+
+        {
+
+            "phrase": "first key phrase"
+
+        },
+
+        {
+
+            "phrase": "second key phrase"
+
+        },
+
+        {
+
+            "phrase": "third key phrase"
+
+        },
+
+        ...
+
+    ]
+
+}
