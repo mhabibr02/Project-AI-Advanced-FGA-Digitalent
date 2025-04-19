@@ -1,0 +1,85 @@
+{
+
+  "@odata.context": "https://advanced-cognitive-search.search.windows.net/indexes('hotels-sample-index')/$metadata#docs(*)",
+
+  "@odata.count": 5,
+
+  "value": [
+
+    {
+
+      "@search.score": 5.3537707,
+
+      "HotelId": "8",
+
+      "HotelName": "Sapphire Resort",
+
+      "Description": "Downtown, close to everything, steps to the park, shopping, and restaurants.",
+
+      "Category": "Luxury",
+
+      "Tags": [
+
+        "free wifi",
+
+        "continental breakfast",
+
+        "air conditioning"
+
+      ]
+
+    },
+
+    {
+
+      "@search.score": 5.3522806,
+
+      "HotelId": "49",
+
+      "HotelName": "Old Carrabelle Hotel",
+
+      "Description": "Spacious rooms, glamorous suites and residences, rooftop pool, walking access to shopping, dining, entertainment and the city center.",
+
+      "Category": "Luxury",
+
+      "Tags": [
+
+        "air conditioning",
+
+        "laundry service",
+
+        "24-hour front desk service"
+
+      ]
+
+    },
+
+    {
+
+      "@search.score": 4.1448884,
+
+      "HotelId": "18",
+
+      "HotelName": "Oceanside Resort",
+
+      "Description": "New Luxury Hotel.  Be the first to stay. Bay views from every room, location near the piper, rooftop pool, waterfront dining & more.",
+
+      "Category": "Budget",
+
+      "Tags": [
+
+        "view",
+
+        "laundry service",
+
+        "air conditioning"
+
+      ]
+
+    },
+
+    ...
+
+  ]
+
+}
