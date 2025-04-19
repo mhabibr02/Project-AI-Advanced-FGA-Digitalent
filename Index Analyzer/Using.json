@@ -16,4 +16,25 @@
 
    "searchAnalyzer": null
 
+ },
+
+ 
+"fields": [
+
+ {
+
+   "name": "IcelandicDescription",
+
+   "type": "Edm.String",
+
+   "retrievable": true,
+
+   "searchable": true,
+
+   "analyzer": null,
+
+   "indexAnalyzer": "ContosoIndexAnalyzer",
+
+   "searchAnalyzer": "ContosoSearchAnalyzer"
+
  }
