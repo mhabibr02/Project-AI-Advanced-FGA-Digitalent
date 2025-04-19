@@ -1,0 +1,37 @@
+{
+
+  "@odata.context": "https://advanced-cognitive-search.search.windows.net/indexes('realestate-us-sample-index')/$metadata#docs(*)",
+
+  "value": [
+
+    {
+
+      "@search.score": 12.124968,
+
+      "listingId": "OTM4MjY1OA2",
+
+      "description_fr": "Il s'agit d'un condo et est parfait pour se divertir.  Cette maison offre des vues côtières Situé à proximité d'une rivière et un bureau, moulures and une véranda couverte.",
+
+      "city": "Seattle",
+
+      "region": "wa",
+
+      "tags": [
+
+        "condo",
+
+        "entertaining",
+
+        "coastal views",
+
+        "river",
+
+        "office",
+
+        "crown mouldings",
+
+        "covered front porch"
+
+      ]
+
+    }
