@@ -1,0 +1,82 @@
+"knowledgeStore": {
+
+      "storageConnectionString": "<storage_connection_string>",
+
+      "projections": [
+
+        {
+
+            "objects": [
+
+                {
+
+                "storageContainer": "<container>",
+
+                "source": "/projection"
+
+                }
+
+            ],
+
+            "tables": [],
+
+            "files": []
+
+        },
+
+        {
+
+            "objects": [],
+
+            "tables": [
+
+                {
+
+                "tableName": "KeyPhrases",
+
+                "generatedKeyName": "keyphrase_id",
+
+                "source": "projection/key_phrases/*",
+
+                },
+
+                {
+
+                "tableName": "docs",
+
+                "generatedKeyName": "document_id",
+
+                "source": "/projection"
+
+                }
+
+            ],
+
+            "files": []
+
+        },
+
+        {
+
+            "objects": [],
+
+            "tables": [],
+
+            "files": [
+
+                {
+
+                "storageContainer": "<container>",
+
+                "source": "/document/normalized_images/*"
+
+                }
+
+            ]
+
+        }
+
+    ]
+
+ }
+
