@@ -1,0 +1,73 @@
+{
+
+    "projectFileVersion": "2022-05-01",
+
+    "stringIndexType": "Utf16CodeUnit",
+
+    "metadata": {
+
+      "projectKind": "CustomMultiLabelClassification",
+
+      "storageInputContainerName": "{CONTAINER-NAME}",
+
+      "projectName": "{PROJECT-NAME}",
+
+      "multilingual": false,
+
+      "description": "Project-description",
+
+      "language": "en-us"
+
+    },
+
+    "assets": {
+
+      "projectKind": "CustomMultiLabelClassification",
+
+      "classes": [
+
+        {
+
+          "category": "Class1"
+
+        },
+
+        {
+
+          "category": "Class2"
+
+        }
+
+      ],
+
+      "documents": [
+
+          {
+
+              "location": "{DOCUMENT-NAME}",
+
+              "language": "{LANGUAGE-CODE}",
+
+              "dataset": "{DATASET}",
+
+              "classes": [
+
+                  {
+
+                      "category": "Class1"
+
+                  },
+
+                  {
+
+                      "category": "Class2"
+
+                  }
+
+              ]
+
+          }
+
+      ]
+
+  }
