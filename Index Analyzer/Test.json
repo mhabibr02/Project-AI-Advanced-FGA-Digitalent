@@ -1,0 +1,7 @@
+{
+
+  "text": "Test text to analyze.",
+
+  "analyzer": "<analyzer name>"
+
+}
