@@ -1,0 +1,17 @@
+{
+
+    "created": 1686780744,
+
+    "data": [
+
+        {
+
+            "url": "<URL of generated image>",
+
+            "revised_prompt": "<prompt that was used>"
+
+        }
+
+    ]
+
+}
