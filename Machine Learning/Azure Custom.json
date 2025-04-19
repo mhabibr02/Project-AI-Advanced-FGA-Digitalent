@@ -1,0 +1,57 @@
+{
+
+      "@odata.type": "#Microsoft.Skills.Custom.AmlSkill",
+
+      "name": "AML name",
+
+      "description": "AML description",
+
+      "context": "/document",
+
+      "uri": "https://[Your AML endpoint]",
+
+      "key": "Your AML endpoint key",
+
+      "resourceId": null,
+
+      "region": null,
+
+      "timeout": "PT30S",
+
+      "degreeOfParallelism": 1,
+
+      "inputs": [
+
+        {
+
+          "name": "field name in the AML model",
+
+          "source": "field from the document in the index"
+
+        },
+
+        {
+
+          "name": "field name in the AML model",
+
+          "source": "field from the document in the index"
+
+        },
+
+ 
+
+      ],
+
+      "outputs": [
+
+        {
+
+          "name": "result field from the AML model",
+
+          "targetName": "result field in the document"
+
+        }
+
+      ]
+
+    }
